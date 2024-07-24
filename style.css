@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #5b5456;
+  font-family: sans-serif;
+}
+
+.parent-container {
+  width: 100%;
+  display: flex;
+}
+
+.todo-container {
+  margin: 50px auto 0 auto;
+  border-radius: 15px;
+  background-color: white;
+  padding-bottom: 50px;
+  width: 300px;
+  height: 100%;
+}
+
+.title {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.icon {
+  color: #aa362b;
+}
+
+.add-task {
+  border: none;
+  border-radius: 15px;
+  background-color: #b1a9ae;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 8px;
+  width: 170px;
+  outline: none;
+}
+
+.add-task::placeholder {
+  padding-left: 10px;
+  font-size: 12px;
+  color: #5b5456;
+}
+
+.add-button {
+  border: none;
+  border-radius: 15px;
+  margin-left: -30px;
+  padding: 8px;
+  width: 70px;
+  background-color: #aa362b;
+  color: white;
+  font-weight: bold;
+}
+
+.list-container {
+  margin-top: 20px;
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+.input-list {
+  list-style-type: none;
+}
+
+.list-container .task {
+  font-size: 12px;
+  color: #5b5456;
+}
+
+.strike-through {
+  text-decoration: line-through;
+  color: #b1a9ae;
+}
+
+.x-button {
+  margin-left: 50px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: #b1a9ae;
+}
+
+.x-button:hover {
+  color: black;
+  transform: scale(1.2);
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-bottom: 5px;
+}
